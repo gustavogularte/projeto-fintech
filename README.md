@@ -5,9 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/Status-Não%20Concluído-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Em%20Andamento-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/Curso-Origamid-purple?style=for-the-badge">
 </p>
 
@@ -17,7 +18,7 @@
 
 O **Fintech** é um projeto desenvolvido durante o curso **TypeScript para Iniciantes** da Origamid.
 
-O objetivo do projeto é aplicar os principais conceitos da linguagem **TypeScript** em uma aplicação React, utilizando tipagem estática para tornar o código mais seguro, organizado e escalável.
+O objetivo do projeto é aplicar os principais conceitos da linguagem **TypeScript** na construção de uma aplicação web, utilizando tipagem estática para produzir um código mais seguro, organizado e de fácil manutenção.
 
 Embora o projeto não tenha sido concluído, este repositório reúne o progresso realizado durante o curso e registra os conceitos estudados ao longo do desenvolvimento.
 
@@ -25,24 +26,26 @@ Embora o projeto não tenha sido concluído, este repositório reúne o progress
 
 # 🚀 Conteúdos estudados
 
-- ✅ TypeScript
 - ✅ Tipagem estática
-- ✅ Interfaces
 - ✅ Types
+- ✅ Interfaces
+- ✅ Type Aliases
 - ✅ Generics
-- ✅ Tipagem de funções
-- ✅ Tipagem de componentes React
-- ✅ Props
-- ✅ Hooks com TypeScript
+- ✅ Enums
+- ✅ Type Guards
+- ✅ Utility Types
+- ✅ Manipulação do DOM com TypeScript
 - ✅ Consumo de APIs
 - ✅ Organização de código
+- ✅ Boas práticas com TypeScript
 
 ---
 
 # 🛠 Tecnologias
 
 <p align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
 </p>
 
@@ -50,7 +53,7 @@ Embora o projeto não tenha sido concluído, este repositório reúne o progress
 
 # 🎯 Objetivo
 
-Este repositório tem como objetivo registrar minha evolução durante os estudos de **TypeScript**, colocando em prática conceitos de tipagem estática e integração com React através do desenvolvimento de uma aplicação inspirada em um painel financeiro.
+Este repositório tem como objetivo registrar minha evolução durante os estudos de **TypeScript**, colocando em prática conceitos como tipagem estática, manipulação do DOM, consumo de APIs e organização de código por meio do desenvolvimento de uma aplicação inspirada em um painel financeiro.
 
 ---
 
@@ -62,16 +65,18 @@ Este repositório tem como objetivo registrar minha evolução durante os estudo
 git clone https://github.com/gustavogularte/fintech.git
 ```
 
-2. Instale as dependências
+2. Abra o projeto em sua IDE de preferência.
+
+3. Compile o TypeScript para JavaScript:
 
 ```bash
-npm install
+tsc
 ```
 
-3. Execute o projeto
+ou utilize o modo de observação:
 
 ```bash
-npm run dev
+tsc --watch
 ```
 
 ---
